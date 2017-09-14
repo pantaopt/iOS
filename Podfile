@@ -6,15 +6,4 @@ target 'HelloWorld' do
   # use_frameworks!
 
   pod 'AFNetworking'  
-
-  target 'HelloWorldTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'HelloWorldUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
